@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 12px;
+        fill: #df2f5d;
+        font-family: NanumSquare;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text id="n" class="cls-1" x="-0.356" y="8.722">n</text>
+</svg>

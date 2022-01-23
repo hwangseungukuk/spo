@@ -1,0 +1,110 @@
+.chat-item div.menu {
+  background-image: url(~assets/icons/chatting/icon-chatting-menu-bg.svg);
+  width: 187px;
+  height: 30px;
+  display: none;
+  position: absolute;
+  padding: 5px 0 5px 8px;
+  top: -7px;
+  left: 75px;
+}
+
+.chat-item div.menu.on {
+  display: flex;
+}
+
+.chat-item div.menu button {
+  background-color: transparent;
+  color: white;
+  border: unset;
+  border-radius: unset;
+  border-right: 1px solid white;
+  flex: 1;
+}
+
+.chat-item div.menu button:last-child {
+  border-right: unset;
+}
+
+.chat-item div.menu button:focus {
+  outline: unset;
+  box-shadow: unset;
+}
+
+.chat-item {
+  position: relative;
+}
+
+.chat-item.current-user p,
+.chat-item.current-user p > span {
+  color: #df2f5d;
+}
+
+.chat-item p {
+  font-weight: 400;
+  color: #aaaaaa;
+  margin-bottom: 6px;
+  font-family: 'NanumBarunGothic', sans-serif;
+}
+
+.chat-item p > span {
+  font-weight: 800;
+  color: #666666;
+}
+
+.chat-item p > span:hover {
+  cursor: pointer;
+}
+
+.chat-item p > span.selected {
+  color: #3eb2c0;
+}
+
+.chat-item p.admin,
+.chat-item p.admin > span {
+  color: #3eb2c0;
+  font-weight: 800;
+}
+
+.chat-item i.icon-svg.admin {
+  width: 14px;
+  height: 14px;
+  margin-bottom: -3px;
+  margin-right: 2px;
+}
+
+.chat-item div.shared-bet-item {
+  width: 100%;
+  height: 35px;
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.chat-item div.shared-bet-item p {
+  font-weight: 700;
+  margin-bottom: 0;
+  color: white;
+}
+
+.chat-item div.shared-bet-item p span {
+  color: white;
+  padding: 8px 0;
+}
+
+.chat-item div.shared-bet-item .icon-svg.plus {
+  width: 10px;
+  height: 10px;
+  -webkit-mask-image: url(~assets/icons/icon-plus.svg);
+  mask-image: url(~assets/icons/icon-plus.svg);
+  background-color: #fffb9b;
+}
+
+.chat-item div.shared-bet-item .icon-svg.plus:hover {
+  cursor: pointer;
+}
+
+.chat-item div.shared-bet-item p > span:hover {
+  cursor: pointer;
+}

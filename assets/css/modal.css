@@ -1,0 +1,152 @@
+.modal-container {
+  position: relative;
+  padding: 40px 40px 80px;
+  width: 500px;
+  height: auto;
+  min-height: 210px;
+  text-align: center;
+}
+
+.modal-container.small {
+  width: 450px;
+}
+
+.modal-container > p {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  max-width: 100%;
+}
+
+p.message {
+  font-size: 16px;
+  color: #444444;
+  font-weight: 800;
+  line-height: 1.8;
+}
+
+p.description {
+  color: #aaaaaa;
+  font-weight: 700;
+}
+
+p.accent {
+  color: #3eb2c0;
+  font-weight: 700;
+}
+.accentTypeBg {
+  width: 100%;
+  padding: 15px 0;
+  color: #3eb2c0;
+  font-weight: 700;
+  background: #f2f2f2;
+  margin-bottom: 20px;
+}
+.accentTypeBg p {
+  margin: 0px;
+}
+.accentTypeBg p.message {
+  color: #3eb2c0;
+}
+.accentTypeBg p.message.accentPoint {
+  font-size: 14px;
+  color: #444;
+  margin-top: 0px !important;
+}
+.accentPoint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px !important;
+}
+.accentPoint i.pmang-cash-store {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  border: 1px solid #dfdfdf;
+  border-radius: 19px;
+  background-size: 17px;
+  margin-right: 5px;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  font-weight: 800;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.btn > p {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+
+.btn-confirm {
+  background-color: #3eb2c0;
+  color: white;
+  border: 1px solid #3eb2c0;
+}
+
+.btn-confirm:hover {
+  border: inherit;
+  box-shadow: 0 0 0 2px #3eb2c033;
+}
+
+.btn-confirm:focus,
+.btn-confirm:active {
+  border: inherit;
+  box-shadow: 0 0 0 2px #3eb2c099;
+}
+
+.btn-cancel {
+  background-color: transparent;
+  color: #3eb2c0;
+  border: 2px solid #3eb2c0;
+}
+
+.btn-cancel:hover {
+  border: inherit;
+  background-color: #3eb2c033;
+  box-shadow: 0 0 0 2px #3eb2c033;
+}
+
+.btn-cancel:focus,
+.btn-cancel:active {
+  border: inherit;
+  background-color: #3eb2c099;
+  box-shadow: 0 0 0 2px #3eb2c099;
+}
+
+.modal-container > .btn-confirm {
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+form.button-group,
+div.button-group {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+}
+
+form.button-group > button,
+div.button-group > button {
+  margin-right: 10px;
+}
+
+form.button-group > button:last-child,
+div.button-group > button:last-child {
+  margin-right: unset;
+}
+
+.inputBoxValue { margin-bottom: 20px; }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스포라이브 - 브라우저 업데이트가 필요합니다.</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css"></style>
+  <style>
+    h2 {
+      font-size: 36px;
+      font-weight: 800;
+    }
+
+    p.description {
+      font-weight: 800;
+      font-size: 24px;
+    }
+
+    div.browser-group {
+      width: 900px;
+      white-space: nowrap;
+      margin: 80px auto;
+    }
+
+    div.browser-group > div {
+      width: 180px;
+      height: 242px;
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 10px;
+      font-weight: 800;
+      box-sizing: border-box;
+    }
+
+    div.browser-group > div img {
+      margin-top: 40px;
+      width: 60px;
+      height: 60px;
+    }
+
+    div.browser-group > div p {
+      margin: 15px auto 25px;
+    }
+
+    div.browser-group > div a {
+      width: 120px;
+      height: 40px;
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      border: 1px solid white;
+      border-radius: 25px;
+      background-color: rgba(255, 255, 255, 0.20);
+    }
+
+    div.browser-group > div a > span {
+      display: block;
+      padding: 10px;
+    }
+
+    div.browser-group > div a:hover,
+    div.browser-group > div a:active {
+      color: white;
+      text-decoration: unset;
+    }
+
+    div.browser-group > div:not(:last-of-type) {
+      margin-right: 60px;
+    }
+
+    img {
+      display: inline-block; 
+    }
+
+    img.spolive-logo {
+      margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <img src="/images/icon-exclamation.png" alt="알림 아이콘" />
+      <p class="description">
+        하단의 브라우저를 이용하시면 스포라이브의 모든 콘텐츠를 원활하게 이용하실 수 있습니다.
+      </p>
+      <p class="under-description">
+        스포라이브는 Chrome, Microsoft Edge, Firefox 및 Safari(macOS) 최신버전에 최적화되어 있습니다.
+      </p>
+      <div class="browser-group">
+        <div>
+          <img src="/images/icon-chrome.png" alt="크롬 로고" />
+          <p>Chrome</p>
+          <a href="https://www.google.com/chrome/" target="_chrome">
+            <span>다운로드</span>
+          </a>
+        </div><!--          
+        --><div>
+          <img src="/images/icon-ms-edge.png" alt="마이크로소프트 엣지 로고" />
+          <p>Microsoft Edge</p>
+          <a href="https://www.microsoft.com/edge" target="_edge">
+            <span>다운로드</span>
+          </a>
+        </div><!--
+        --><div>
+          <img src="/images/icon-firefox.png" alt="파이어폭스 로고" />
+          <p>Firefox</p>
+          <a href="https://www.mozilla.org/firefox/new/">
+            <span>다운로드</span>
+          </a>
+        </div>
+      </div>
+      <img class="spolive-logo" src="/images/spolive-logo.png" alt="Spolive Logo" />
+    </div>
+  </div>
+</body>
+</html>

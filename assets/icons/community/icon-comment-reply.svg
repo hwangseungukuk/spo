@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13.624" height="16" viewBox="0 0 13.624 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #888;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="enter_icon" data-name="enter icon" class="cls-1" d="M282.439,2656.28l-0.858.85,2.4,2.4H273.913V2648H272.7v12.74h11.277l-2.4,2.4,0.858,0.86,3.861-3.86Z" transform="translate(-272.688 -2648)"/>
+</svg>

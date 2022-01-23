@@ -1,0 +1,16 @@
+<svg id="btn_more_언더오버" data-name="btn more 언더오버" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+      }
+
+      .cls-2 {
+        fill: #aaa;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="bx" class="cls-1" width="20" height="20" rx="10" ry="10"/>
+  <path id="_" data-name="&gt;&gt;" class="cls-2" d="M1148.97,983.656l3.62,5.19a0.391,0.391,0,0,1-.29.623h-7.24a0.391,0.391,0,0,1-.29-0.623l3.62-5.19A0.348,0.348,0,0,1,1148.97,983.656Z" transform="translate(-1139 -977)"/>
+</svg>

@@ -1,0 +1,515 @@
+/**
+ * ICON SVG
+ */
+
+ .icon-svg {
+  display: inline-block;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  background-color: black;
+  width: 24px;
+  height: 24px;
+  -webkit-mask-image: url(~assets/icons/icon-question.svg);
+  mask-image: url(~assets/icons/icon-question.svg);
+  transition: all 0.3s;
+}
+
+.icon-svg.header {
+  background-color: white;
+}
+
+.icon-svg.header.hitgame,
+.icon-svg.live.recommend {
+  -webkit-mask-image: url(~assets/icons/header/icon_header_hitgame.svg);
+  mask-image: url(~assets/icons/header/icon_header_hitgame.svg);
+}
+
+.icon-svg.live.scheduled {
+  -webkit-mask-image: url(~assets/icons/bettings/icon-scheduled.svg);
+  mask-image: url(~assets/icons/bettings/icon-scheduled.svg);
+}
+
+.icon-svg.header.casual,
+.icon-svg.header.gamezone {
+  -webkit-mask-image: url(~assets/icons/header/icon_header_casual.svg);
+  mask-image: url(~assets/icons/header/icon_header_casual.svg);
+}
+
+.icon-svg.header.introduce {
+  -webkit-mask-image: url(~assets/icons/header/icon_header_introduce.svg);
+  mask-image: url(~assets/icons/header/icon_header_introduce.svg);
+}
+
+.icon-svg.header.community {
+  -webkit-mask-image: url(~assets/icons/header/icon_header_community.svg);
+  mask-image: url(~assets/icons/header/icon_header_community.svg);
+}
+
+.icon-svg.header.store {
+  -webkit-mask-image: url(~assets/icons/header/icon_header_store.svg);
+  mask-image: url(~assets/icons/header/icon_header_store.svg);
+}
+
+.icon-svg.header.news {
+  -webkit-mask-image: url(~assets/icons/header/icon_header_news.svg);
+  mask-image: url(~assets/icons/header/icon_header_news.svg);
+}
+
+.icon-svg.header.mypage {
+  -webkit-mask-image: url(~assets/icons/header/icon_header_mypage.svg);
+  mask-image: url(~assets/icons/header/icon_header_mypage.svg);
+}
+
+.icon-svg.header.trades {
+  -webkit-mask-image: url(~assets/icons/header/icon_header_trades.svg);
+  mask-image: url(~assets/icons/header/icon_header_trades.svg);
+}
+
+.icon-svg.header.picks {
+  -webkit-mask-image: url(~assets/icons/header/icon_header_picks.svg);
+  mask-image: url(~assets/icons/header/icon_header_picks.svg);
+}
+
+.icon-svg.logout {
+  -webkit-mask-image: url(~assets/icons/account/icon-logout.svg);
+  mask-image: url(~assets/icons/account/icon-logout.svg);
+}
+
+.icon-svg.small {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-svg.large {
+  width: 40px;
+  height: 40px;
+}
+
+/** SPORT ICON */
+
+.icon-svg.soccer {
+  -webkit-mask-image: url(~assets/icons/league/soccer.svg);
+  mask-image: url(~assets/icons/league/soccer.svg);
+}
+
+.icon-svg.basketball {
+  -webkit-mask-image: url(~assets/icons/league/basketball.svg);
+  mask-image: url(~assets/icons/league/basketball.svg);
+}
+
+.icon-svg.baseball {
+  -webkit-mask-image: url(~assets/icons/league/baseball.svg);
+  mask-image: url(~assets/icons/league/baseball.svg);
+}
+
+.icon-svg.icehockey {
+  -webkit-mask-image: url(~assets/icons/league/icehockey.svg);
+  mask-image: url(~assets/icons/league/icehockey.svg);
+}
+
+.icon-svg.tennis {
+  -webkit-mask-image: url(~assets/icons/league/tennis.svg);
+  mask-image: url(~assets/icons/league/tennis.svg);
+}
+
+.icon-svg.rugby {
+  -webkit-mask-image: url(~assets/icons/league/rugby.svg);
+  mask-image: url(~assets/icons/league/rugby.svg);
+}
+
+.icon-svg.volleyball {
+  -webkit-mask-image: url(~assets/icons/league/volleyball.svg);
+  mask-image: url(~assets/icons/league/volleyball.svg);
+}
+
+i.icon-svg.tabletennis {
+  -webkit-mask-image: url(~assets/icons/league/tabletennis.svg);
+  mask-image: url(~assets/icons/league/tabletennis.svg);
+}
+
+i.icon-svg.handball {
+  -webkit-mask-image: url(~assets/icons/league/handball.svg);
+  mask-image: url(~assets/icons/league/handball.svg);
+}
+
+i.icon-svg.badminton {
+  -webkit-mask-image: url(~assets/icons/league/badminton.svg);
+  mask-image: url(~assets/icons/league/badminton.svg);
+}
+
+i.icon-svg.billiards {
+  -webkit-mask-image: url(~assets/icons/league/billiards.svg);
+  mask-image: url(~assets/icons/league/billiards.svg);
+}
+
+i.icon-svg.snooker {
+  -webkit-mask-image: url(~assets/icons/league/snooker.svg);
+  mask-image: url(~assets/icons/league/snooker.svg);
+}
+
+i.icon-svg.squash {
+  -webkit-mask-image: url(~assets/icons/league/squash.svg);
+  mask-image: url(~assets/icons/league/squash.svg);
+}
+
+i.icon-svg.futsal {
+  -webkit-mask-image: url(~assets/icons/league/futsal.svg);
+  mask-image: url(~assets/icons/league/futsal.svg);
+}
+
+i.icon-svg.ufight {
+  -webkit-mask-image: url(~assets/icons/league/ufight.svg);
+  mask-image: url(~assets/icons/league/ufight.svg);
+}
+
+i.icon-svg.race {
+  -webkit-mask-image: url(~assets/icons/league/race.svg);
+  mask-image: url(~assets/icons/league/race.svg);
+}
+
+i.icon-svg.dart {
+  -webkit-mask-image: url(~assets/icons/league/dart.svg);
+  mask-image: url(~assets/icons/league/dart.svg);
+}
+
+i.icon-svg.baduk {
+  -webkit-mask-image: url(~assets/icons/league/baduk.svg);
+  mask-image: url(~assets/icons/league/baduk.svg);
+}
+
+.icon-svg.lol {
+  -webkit-mask-image: url(~assets/icons/league/lol.svg);
+  mask-image: url(~assets/icons/league/lol.svg);
+}
+
+/** SPORTS ICON END */
+
+.icon-svg.info,
+.icon-svg.analysis {
+  -webkit-mask-image: url(~assets/icons/bettings/icon-analysis.svg);
+  mask-image: url(~assets/icons/bettings/icon-analysis.svg);
+}
+
+.icon-svg.sms {
+  -webkit-mask-image: url(~assets/icons/bettings/g-sms.svg);
+  mask-image: url(~assets/icons/bettings/g-sms.svg);
+}
+
+.icon-svg.tracker {
+  -webkit-mask-image: url(~assets/icons/bettings/g-tracker.svg);
+  mask-image: url(~assets/icons/bettings/g-tracker.svg);
+}
+
+.icon-svg.new-window {
+  -webkit-mask-image: url(~assets/icons/bettings/icon-new-window.svg);
+  mask-image: url(~assets/icons/bettings/icon-new-window.svg);
+}
+
+.icon-svg.locked {
+  -webkit-mask-image: url(~assets/icons/bettings/icon-locked.svg);
+  mask-image: url(~assets/icons/bettings/icon-locked.svg);
+}
+
+.icon-svg.messages {
+  background-image: url(~assets/icons/account/nav-messages.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-mask-image: unset;
+  mask-image: unset;
+}
+
+.icon-svg.messages.has {
+  background-image: url(~assets/icons/account/nav-messages-has.svg);
+}
+
+.icon-svg.options,
+.icon-svg.settings {
+  -webkit-mask-image: url(~assets/icons/gear-options.svg);
+  mask-image: url(~assets/icons/gear-options.svg);
+}
+
+.icon-svg.send {
+  -webkit-mask-image: url(~assets/icons/chatting/chat-send.svg);
+  mask-image: url(~assets/icons/chatting/chat-send.svg);
+}
+
+.icon-svg.board-new {
+  -webkit-mask-image: url(~assets/icons/board/board-new-icon.svg);
+  mask-image: url(~assets/icons/board/board-new-icon.svg);
+}
+
+.icon-svg.close,
+.icon-svg.betting-remove {
+  -webkit-mask-image: url(~assets/icons/icon-close.svg);
+  mask-image: url(~assets/icons/icon-close.svg);
+}
+
+.icon-svg.close.thin {
+  -webkit-mask-image: url(~assets/icons/icon-close-thin.svg);
+  mask-image: url(~assets/icons/icon-close-thin.svg);
+}
+
+.icon-svg.calendar {
+  -webkit-mask-image: url(~assets/icons/icon-calendar.svg);
+  mask-image: url(~assets/icons/icon-calendar.svg);
+}
+
+.icon-svg.exclamation {
+  -webkit-mask-image: url(~assets/icons/icon-exclamation.svg);
+  mask-image: url(~assets/icons/icon-exclamation.svg);
+}
+
+.icon-svg.exclamation.outline {
+  -webkit-mask-image: url(~assets/icons/icon-exclamation-outline.svg);
+  mask-image: url(~assets/icons/icon-exclamation-outline.svg);
+}
+
+i.icon-svg.search {
+  -webkit-mask-image: url(~assets/icons/icon-search.svg);
+  mask-image: url(~assets/icons/icon-search.svg);
+}
+
+i.icon-svg.attachment {
+  -webkit-mask-image: url(~assets/icons/board/icon-attachment.svg);
+  mask-image: url(~assets/icons/board/icon-attachment.svg);
+}
+
+i.icon-svg.new {
+  -webkit-mask-image: url(~assets/icons/board/icon-new.svg);
+  mask-image: url(~assets/icons/board/icon-new.svg);
+}
+
+
+i.icon-svg.bet {
+  background-image: url(~assets/icons/community/icon-bet.svg);
+  -webkit-mask-image: unset;
+  mask-image: unset;
+}
+
+i.icon-svg.link {
+  background-image: url(~assets/icons/community/icon-link-grey-circle.svg);
+  background-color: transparent;
+  -webkit-mask-image: unset;
+  mask-image: unset;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon-svg.read-link {
+  background-image: url(~assets/icons/board/icon-read-link.svg);
+  background-color: transparent;
+  -webkit-mask-image: unset;
+  mask-image: unset;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon-svg.read-attachment {
+  background-image: url(~assets/icons/board/icon-read-attachment.svg);
+  background-color: transparent;
+  -webkit-mask-image: unset;
+  mask-image: unset;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon-svg.reply {
+  -webkit-mask-image: url(~assets/icons/board/icon-reply.svg);
+  mask-image: url(~assets/icons/board/icon-reply.svg);
+}
+
+.icon-svg.other {
+  -webkit-mask-image: url(~assets/icons/community/icon-community-other.svg);
+  mask-image: url(~assets/icons/community/icon-community-other.svg);
+}
+
+/*
+i.icon-svg.etc {
+  background-image: url(~assets/icons/community/icon-etc.svg);
+  -webkit-mask-image: unset;
+  mask-image: unset;
+} */
+
+i.icon-svg.admin {
+  background-image: url(~assets/icons/board/icon-admin.svg);
+  -webkit-mask-image: unset;
+  mask-image: unset;
+  background-color: unset;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+i.icon-svg.board-pagination-prev {
+  -webkit-mask-image: url(~assets/icons/board/icon-board-pagination-prev.svg);
+  mask-image: url(~assets/icons/board/icon-board-pagination-prev.svg);
+}
+
+i.icon-svg.board-pagination-next {
+  -webkit-mask-image: url(~assets/icons/board/icon-board-pagination-prev.svg);
+  mask-image: url(~assets/icons/board/icon-board-pagination-prev.svg);
+  transform: rotate(180deg);
+}
+
+i.icon-svg.arrow {
+  transition: all 0.3s;
+}
+
+i.icon-svg.arrow.up {
+  -webkit-mask-image: url(~assets/icons/icon-up-arrow.svg);
+  mask-image: url(~assets/icons/icon-up-arrow.svg);
+}
+
+i.icon-svg.arrow.down {
+  -webkit-mask-image: url(~assets/icons/icon-up-arrow.svg);
+  mask-image: url(~assets/icons/icon-up-arrow.svg);
+  transform: rotate(180deg);
+}
+
+i.icon-svg.arrow.scroll-top,
+i.icon-svg.arrow.up.thin {
+  -webkit-mask-image: url(~assets/icons/icon-arrow-up-scrolltop.svg);
+  mask-image: url(~assets/icons/icon-arrow-up-scrolltop.svg);
+}
+
+i.icon-svg.arrow.down.thin {
+  -webkit-mask-image: url(~assets/icons/icon-arrow-up-scrolltop.svg);
+  mask-image: url(~assets/icons/icon-arrow-up-scrolltop.svg);
+  translate: rotate(180deg);
+}
+
+i.icon-svg.arrow.left.thin {
+  -webkit-mask-image: url(~assets/icons/icon-arrow-left-thin.svg);
+  mask-image: url(~assets/icons/icon-arrow-left-thin.svg);
+}
+
+.icon-svg.higher,
+.icon-svg.rate.up {
+  -webkit-mask-image: url(~assets/icons/bettings/betting-status-higher.svg);
+  mask-image: url(~assets/icons/bettings/betting-status-higher.svg);
+  background-color: #df2f5d;
+}
+
+.icon-svg.lower,
+.icon-svg.rate.down {
+  -webkit-mask-image: url(~assets/icons/bettings/betting-status-lower.svg);
+  mask-image: url(~assets/icons/bettings/betting-status-lower.svg);
+  background-color: #195eea;
+}
+
+i.icon-svg.pmang-cash {
+  -webkit-mask-image: url(~assets/icons/account/icon-spolive-coin.png);
+  mask-image: url(~assets/icons/account/icon-spolive-coin.png);
+}
+
+i.pmang-cash-store {
+  background-image: url(~assets/icons/account/icon-pmang-cash.png);
+  -webkit-mask-image: unset;
+  mask-image: unset;
+}
+
+i.icon-svg.safebox {
+  mask-image: unset;
+  -webkit-mask-image: unset;
+  background-image: url(~assets/icons/account/icon-safebox.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+i.icon-svg.safebox.has {
+  background-image: url(~assets/icons/account/icon-safebox-has.svg);
+}
+
+i.icon-svg.spolive-gold {
+  -webkit-mask-image: url(~assets/icons/account/icon-spolive-gold.svg);
+  mask-image: url(~assets/icons/account/icon-spolive-gold.svg);
+}
+
+i.icon-svg.spolive-coin {
+  -webkit-mask-image: url(~assets/icons/account/icon-spolive-coin.svg);
+  mask-image: url(~assets/icons/account/icon-spolive-coin.svg);
+}
+
+
+i.icon-svg.hbg-menu {
+  -webkit-mask-image: url(~assets/icons/icon-hamburger-menu.svg);
+  mask-image: url(~assets/icons/icon-hamburger-menu.svg);
+}
+
+i.icon-svg.trash-can {
+  -webkit-mask-image: url(~assets/icons/gamecenter/icon-trash-can.svg);
+  mask-image: url(~assets/icons/gamecenter/icon-trash-can.svg);
+}
+
+i.icon-svg.reset {
+  -webkit-mask-image: url(~assets/icons/gamecenter/icon-reset.svg);
+  mask-image: url(~assets/icons/gamecenter/icon-reset.svg);
+}
+
+.icon-svg.sports-all,
+.icon-svg.all-circle,
+.icon-svg.circle-all,
+.icon-svg.all.circle {
+  -webkit-mask-image: url(~assets/icons/gamecenter/hitgame/gamecenter-hitgame-all.svg);
+  mask-image: url(~assets/icons/gamecenter/hitgame/gamecenter-hitgame-all.svg);
+}
+
+.icon-svg.casual-result {
+  -webkit-mask-image: unset;
+  mask-image: unset;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.icon-svg.checkbox.inner {
+  -webkit-mask-image: url(~assets/icons/icon-checkbox-inner.svg);
+  mask-image: url(~assets/icons/icon-checkbox-inner.svg);
+}
+
+.icon-svg.casual-result.s,
+.icon-svg.casual-result.jumpball.one,
+.icon-svg.casual-result.jumpball.\31,
+.icon-svg.casual-result.cointoss.one,
+.icon-svg.casual-result.cointoss.\31 {
+  background-image: url(~assets/icons/gamecenter/history/icon-casual-result-s.svg);
+}
+
+.icon-svg.casual-result.s,
+.icon-svg.casual-result.jumpball.two,
+.icon-svg.casual-result.jumpball.\32,
+.icon-svg.casual-result.cointoss.two,
+.icon-svg.casual-result.cointoss.\32 {
+  background-image: url(~assets/icons/gamecenter/history/icon-casual-result-po.svg);
+}
+
+.icon-svg.casual-result.s,
+.icon-svg.casual-result.freekick.one,
+.icon-svg.casual-result.freekick.\31 {
+  background-image: url(~assets/icons/gamecenter/history/icon-casual-result-li.svg);
+}
+
+.icon-svg.casual-result.s,
+.icon-svg.casual-result.freekick.two,
+.icon-svg.casual-result.freekick.\32 {
+  background-image: url(~assets/icons/gamecenter/history/icon-casual-result-i.svg);
+}
+
+.icon-svg.casual-result.s,
+.icon-svg.casual-result.freekick.three,
+.icon-svg.casual-result.freekick.\33 {
+  background-image: url(~assets/icons/gamecenter/history/icon-casual-result-ve.svg);
+}
+
+/**
+ */

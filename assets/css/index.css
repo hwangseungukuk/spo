@@ -1,0 +1,592 @@
+@import url(//cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+@import url(//fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap);
+@import url(~assets/css/icon-svg.css);
+@import url(~assets/css/quill-editor-custom.css);
+@import url(~assets/css/chat-item.css);
+@import url(~assets/css/select-history.css);
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+}
+
+.nanumbarungothic * {
+  font-family: 'NanumSquare', 'NanumBarunGothic', sans-serif;
+}
+
+/**
+ * Bootstrap Over-write
+ */
+
+ .white_cover {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+*:focus:not(.do-betting) {
+  box-shadow: none !important;
+}
+
+
+p, a, span, h1, h2, h3, h4, h5, h6, input, dt, dd, th, td, button, textarea, li, small {
+  transform: skew(-0.03deg);
+}
+
+
+ol, ul, dl {
+  margin: 0;
+}
+
+button > p,
+.btn > p {
+  margin-bottom: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'NanumSquare', 'NanumBarunGothic', sans-serif;
+  font-size: 12px;
+  color: #444444;
+  font-weight: 400;
+}
+
+aside.main-right {
+  margin-left: 20px;
+  width: 350px;
+  position: relative;
+}
+
+div.container {
+  width: 1320px;
+  max-width: 1320px;
+  padding: 0 15px;
+}
+
+div.container > main > div {
+  width: 920px;
+  position: relative;
+}
+
+div.m-container {
+  width: 920px;
+  padding: 0;
+}
+
+div.m-container > div:nth-last-of-type(1) {
+  /*background: #fff;
+  padding: 0 20px 20px;
+  border-radius: 0 0 10px 10px;*/
+}
+
+div.row {
+  margin: 0;
+}
+
+div.row>div[class*='col'] {
+  padding: 0;
+}
+
+.detail.contents div.html-contents {
+  font-family: 'NanumBarunGothic', sans-serif;
+}
+
+.detail.contents div.html-contents img,
+.qna-detail .content img {
+  max-width: 100%;
+}
+
+p.accent,
+p > span.accent {
+  color: #3eb2c0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.align-items-center {
+  align-items: center;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+div.spacer {
+  flex: 1;
+}
+
+.image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.default-ctn {
+  background-color: white;
+  border-radius: 10px;
+}
+
+button,
+.btn {
+  border-radius: 10px;
+}
+
+.btn.btn-sm {
+  border-radius: 5px;
+}
+
+div.header-bg {
+  background-color: #3c577e;
+  height: 190px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-width: 1320px;
+  z-index: -1;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, #5da9d6 0%, #70d0c9 100%);
+}
+
+.m-container > div.board-container {
+  border-radius: 0 0 10px 10px;
+  background-color: white;
+  padding: 20px 20px 1px;
+}
+
+/** NO HAS GAME */
+div.no-has-games,
+div.no-has-items {
+  /* width: 1000px; */
+  height: 300px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+div.no-has-games p,
+div.no-has-items p {
+  font-weight: 700;
+  color: #888888;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+/** Betting item add dash line to bottom */
+div.league-container div.game-list div.match-item-container {
+  border-bottom: dashed 1px #e6e6e6;
+}
+
+div.league-container div.game-list div.match-item-container:last-child {
+  border-bottom: unset;
+  margin-bottom: 20px;
+}
+
+/** Betting Game closed control */
+div.game-list div.match-item-container:first-child > div.game-closed {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+div.game-list div.match-item-container:last-child > div.game-closed {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/** Switch */
+ .custom-switch.lg .custom-control-label::before {
+  width: 56px;
+  height: 24px;
+  border-radius: 18px;
+}
+
+.custom-switch.lg .custom-control-label::after {
+  top: calc(0.3rem + 4px);
+  width: calc(1.2rem - 4px);
+  height: calc(1.2rem - 4px);
+  border-radius: 50%;
+}
+
+.custom-switch.lg .custom-control-input:checked ~ .custom-control-label::after {
+  left: calc(-0.65rem);
+}
+
+.custom-switch.b-custom-control-lg .custom-control-label::before, .input-group-lg .custom-switch .custom-control-label::before {
+  top: 5px;
+  height: 14px;
+  left: -42px;
+  width: 34px;
+  border-radius: 7px;
+  background-color: #cccccc;
+  border: unset;
+  outline: unset;
+  box-shadow: unset;
+}
+
+.custom-switch.b-custom-control-lg .custom-control-label::after {
+  top: 3px;
+  left: -42px;
+  width: 18px;
+  height: 18px;
+  border-radius: 0.625rem;
+  background-size: 50% 50%;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  outline: unset;
+  box-shadow: unset;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  background-color: #3eb2c0;
+  outline: unset;
+  box-shadow: unset;
+}
+
+.custom-switch.b-custom-control-lg .custom-control-input:checked ~ .custom-control-label::after, .input-group-lg .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  transform: translateX(18px);
+  outline: unset;
+  box-shadow: unset;
+}
+
+/** Checkbox */
+div.custom-checkbox > label.custom-control-label::before,
+div.custom-checkbox > label.custom-control-label::after {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  top: 2px;
+
+}
+
+div.custom-checkbox
+  > .custom-control-input:checked
+  ~ label.custom-control-label::before {
+  border: 1px solid #3eb2c0;
+}
+
+div.custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 0.2rem #3eb2c044;
+}
+
+/** Vue Date Picker */
+.vdp-datepicker .vdp-datepicker__calendar {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  color: #444444;
+}
+
+.vdp-datepicker .vdp-datepicker__calendar header {
+  line-height: 30px;
+}
+
+.vdp-datepicker .vdp-datepicker__calendar header span.prev::after {
+  border-right: 10px solid #aaaaaa;
+}
+.vdp-datepicker .vdp-datepicker__calendar header span.next::after {
+  border-left: 10px solid #aaaaaa;
+}
+
+.vdp-datepicker .vdp-datepicker__calendar .cell.day {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.vdp-datepicker .vdp-datepicker__calendar .cell.day:hover {
+  border: 1px solid #3eb2c0;
+}
+
+.vdp-datepicker .vdp-datepicker__calendar .cell.day.selected {
+  background-color: #3eb2c0;
+  color: white;
+  font-weight: 700;
+}
+
+/** Vue-JS-Modal */
+.vm--modal {
+  border-radius: unset;
+  background-color: unset;
+  box-shadow: unset;
+}
+
+.sch_word {
+  color: #3eb2c0;
+  font-weight: 800;
+}
+
+/** Bootstrap Buttons */
+.btn-info {
+  background-color: #3eb2c0;
+ /* border: 1px solid #3eb2c0;*/
+ border: none;
+}
+
+.btn-secondary {
+  background-color: #aaaaaa;
+  border: 1px solid #aaaaaa;
+}
+
+/** Pagination */
+
+ul.pagination .page-item {
+  width: 30px;
+}
+
+ul.pagination .page-item .page-link {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border: unset;
+  background-color: unset;
+  color: #888888;
+  line-height: 1;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.3s;
+  padding: 4px;
+}
+
+ul.pagination .page-item:hover .page-link {
+  color: #3eb2c0aa;
+  box-shadow: 0 0 0 1px #3eb2c055;
+}
+
+ul.pagination .page-item .page-link:focus,
+ul.pagination .page-item .page-link:active {
+  outline: unset;
+  box-shadow: unset;
+}
+
+ul.pagination .page-item.active .page-link {
+  color: #3eb2c0;
+  font-weight: 700;
+}
+
+ul.pagination .page-item:first-child .page-link,
+ul.pagination .page-item:last-child .page-link {
+  width: 20px;
+  border: unset;
+  border-radius: 5px;
+  background-color: #cccccc;
+}
+
+i.icon-svg[class*=' board-pagination-'] {
+  width: 6px;
+  height: 12px;
+  background-color: #f2f2f2;
+}
+
+ul.pagination .page-item.prev:hover .page-link,
+ul.pagination .page-item.next:hover .page-link {
+  background-color: #3eb2c0;
+}
+
+/** Selectbox */
+select.selectbox {
+  min-width: 80px;
+  height: 30px;
+  font-size: 12px;
+  background-color: white;
+  border-radius: 5px;
+  color: #999999;
+  border: 1px solid #d9d9d9;
+  position: relative;
+  padding: 0 32px 0 10px;
+  text-align: left;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url(~assets/icons/icon-dropdown-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 90% center;
+}
+
+select.selectbox:focus,
+select.selectbox:active {
+  outline: unset;
+  box-shadow: 0 0 0 2px #3eb2c0aa;
+}
+
+select.selectbox:active {
+  background-color: white;
+  color: #999999;
+}
+
+.selectbox.status {
+  width: 80px;
+  padding: 0 20px 0 10px;
+}
+
+.selectbox.term {
+  width: 100px;
+}
+
+.inputbox {
+  height: 30px;
+  font-size: 12px;
+  background-color: white;
+  border-radius: 5px;
+  color: #999999;
+  border: 1px solid #d9d9d9;
+  position: relative;
+  padding-left: 10px;
+}
+.inputbox:focus,
+.inputbox:active {
+  outline: unset;
+  box-shadow: 0 0 0 2px #3eb2c0aa;
+}
+
+/** Spinner */
+.spinner {
+  font-size: 10px;
+  margin: 50px auto;
+  text-indent: -9999em;
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  background: #3eb2c0;
+  background: -moz-linear-gradient(left, #3eb2c0 10%, #3eb2c000 42%);
+  background: -webkit-linear-gradient(left, #3eb2c0 10%, #3eb2c000 42%);
+  background: -o-linear-gradient(left, #3eb2c0 10%, #3eb2c000 42%);
+  background: -ms-linear-gradient(left, #3eb2c0 10%, #3eb2c000 42%);
+  background: linear-gradient(to right, #3eb2c0 10%, #3eb2c000 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.spinner:before {
+  width: 50%;
+  height: 50%;
+  background: #3eb2c0;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.spinner:after,
+.spinner.white:after {
+  background: white;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.spinner.hitgame:after,
+.spinner.grey:after {
+  background: #f2f2f2;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.block-events {
+  height: 100%;
+  position: absolute !important;
+  pointer-events: inherit;
+  z-index: 111;
+}
+
+.image.spolive.logo.no-text {
+  background-image: url(~assets/images/spolive-white-no-text.png);
+}
+
+/* Scrollbar
+*/
+
+/* width */
+body *::-webkit-scrollbar {
+  width: 12px;
+  margin-left: 4px;
+}
+
+/* Track */
+body *::-webkit-scrollbar-track {
+  background: transparent;
+  background-clip: padding-box;
+}
+
+/* Handle */
+body *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #e5e5e5;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+}
+
+/* Handle on hover */
+body *::-webkit-scrollbar-thumb:hover {
+  border-radius: 4px;
+  background: #d5d5d5;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+}
+
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

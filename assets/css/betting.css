@@ -1,0 +1,177 @@
+.match-item-container div.row > div.info[class*='col'] {
+  flex: 1;
+  max-width: 280px;
+  padding: 5px 20px 0 8px;
+}
+
+.match-item-container div.info > div {
+  display: inline-block;
+}
+
+.match-item-container div.info > div.team-name > * {
+  display: initial;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.match-item-container div.info > div.team-name > p {
+  display: inherit !important; /* 택스트문제 */
+  margin-bottom: 0;
+}
+
+.match-item-container div.info > div.team-name > span {
+  color: #3eb2c0;
+  margin: 0 4px;
+  display: inherit !important; /* 택스트문제 */
+}
+
+.match-item-container div.info p.date {
+  color: #444;
+}
+
+.match-item-container p {
+  margin-bottom: 4px;
+}
+
+.match-item-container div.bet-items {
+  flex: 1;
+  max-width: 625px;
+  font-size: 12px;
+}
+
+.match-item-container i.icon-svg.analysis,
+.match-item-container i.icon-svg.sms,
+.match-item-container i.icon-svg.tracker,
+.match-item-container i.icon-svg.more {
+  width: 20px;
+  height: 20px;
+  background-color: #3eb2c0;
+  margin-bottom: -5px;
+  transition: all 0.3s;
+}
+
+.match-item-container i.icon-svg {
+  margin-right: 12px;
+}
+
+.match-item-container i.icon-svg:hover {
+  cursor: pointer;
+}
+
+.match-item-container i.icon-svg.analysis {
+  margin-left: 5px;
+}
+
+.match-item-container i.icon-svg:last-child {
+  margin-right: 0;
+}
+
+.match-item-container i.icon-svg.more {
+  margin-right: 5px;
+}
+
+.match-item-container .btn-expander {
+  padding: 0;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.match-item-container .btn-expander.collapsed i.icon-svg.more {
+  margin-bottom: -6px;
+  background-image: url(~assets/icons/bettings/betting-more.svg);
+  -webkit-mask-image: unset;
+  mask-image: unset;
+  background-color: transparent;
+}
+
+.match-item-container .btn-expander.not-collapsed i.icon-svg.more {
+  margin-bottom: -6px;
+  background-image: url(~assets/icons/bettings/betting-more-expanded.svg);
+  -webkit-mask-image: unset;
+  mask-image: unset;
+  background-color: transparent;
+}
+
+.match-item-container i.icon-svg.more.collapsed:focus,
+.match-item-container i.icon-svg.more.not-collapsed:focus {
+  outline: unset;
+}
+
+.match-item-container div.collapse {
+  margin-bottom: 5px;
+}
+
+.match-item-container .bt-row div > button:not(.btn-expander),
+.match-item-container .bt-row div.b-game-spacer,
+.match-item-container .bt-row div.b-game-center-info {
+  width: 150px;
+  display: inline-flex;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.match-item-container .bt-row div > button:not(.btn-expander) {
+  font-size: 12px;
+  height: 30px;
+  border: 1px solid #e5e5e5;
+  transition: all 0.3s;
+  color: #444444;
+  font-weight: 700;
+  background-color: white;
+  padding: 6px 20px;
+}
+
+.match-item-container .bt-row div > button:focus:not(.btn-expander) {
+  outline: unset;
+  box-shadow: unset;
+  /* background-color: #f2f2f2; */
+}
+
+.match-item-container .bt-row div > button:not(.btn-expander) > p {
+  width: fit-content;
+  margin: 0;
+}
+
+.match-item-container .bt-row div > button.on:not(.btn-expander) {
+  background: linear-gradient(90deg, #5da9d6 0%, #70d0c9 100%);
+  color: white;
+  border: unset;
+}
+
+.match-item-container .bt-row div > button > p > i.icon-svg {
+  width: 7px;
+  height: 9px;
+  margin-right: 8px;
+}
+
+.match-item-container .bt-row div > button > p > i.icon-svg.equal,
+.match-item-container .bt-row div > button > p > i.icon-svg.null {
+  display: none;
+}
+
+.match-item-container .bt-row div > button > p > i.icon-svg.higher {
+  background-color: #df2f5d;
+}
+
+.match-item-container .bt-row div > button > p > i.icon-svg.lower {
+  background-color: #195eea;
+}
+
+.match-item-container .bt-row div > button.update {
+  animation: update-blink 0.65s forwards;
+}
+
+.match-item-container .bt-row div.b-game-center-info {
+  height: 30px;
+  border: 1px solid #e5e5e5;
+  color: #888888;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.match-item-container .bt-row div.b-game-center-info > p {
+  margin: 0;
+  width: fit-content;
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ccc;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon_copy_3" data-name="icon copy 3" class="cls-1" d="M254,382v1.5h12V382H254Zm0,6.75h12v-1.5H254v1.5Zm0,5.25h12v-1.5H254V394Z" transform="translate(-254 -382)"/>
+</svg>

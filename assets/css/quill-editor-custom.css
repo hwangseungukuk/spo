@@ -1,0 +1,394 @@
+.quill-editor * {
+  transform: unset;
+}
+
+.ql-toolbar.ql-snow,
+.ql-container.ql-snow {
+  border: 1px solid #e5e5e5 !important;
+}
+
+.ql-snow .ql-picker {
+  color: #888888 !important;
+}
+
+.ql-toolbar.ql-snow {
+  border-radius: 5px 5px 0 0;
+}
+
+.ql-container.ql-snow {
+  border-radius: 0 0 5px 5px;
+}
+
+.ql-snow svg .ql-stroke {
+  stroke: #888888;
+}
+
+.ql-snow svg .ql-fill {
+  fill: #888888;
+}
+
+.quill-editor .ql-editor {
+  font-family: 'NanumBarunGothic', sans-serif;
+  font-size: 10pt;
+  overflow-y: scroll;
+}
+
+.ql-editor .ql-video {
+  width: 480px;
+  height: 270px;
+}
+
+.detail .ql-video {
+  width: 800px;
+  height: 450px;
+}
+
+/** font-family list */
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Gulim"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Gulim"]::before  {
+  content: '굴림';
+  font-family: 굴림,Gulim,gulim,applegothic,sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="GulimChe"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="GulimChe"]::before  {
+  content: '굴림체';
+  font-family: 굴림체,GulimChe,gulimche,Gulimche,applegothic,sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Dotum"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Dotum"]::before  {
+  content: '돋움';
+  font-family: 돋움,Dotum,dotum,applegothic,sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="DotumChe"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="DotumChe"]::before  {
+  content: '돋움체';
+  font-family: 돋움체,DotumChe,dotumche,applegothic;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Batang"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Batang"]::before  {
+  content: '바탕';
+  font-family: 바탕,Batang,batang,AppleMyungjo;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="BatangChe"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="BatangChe"]::before  {
+  content: '바탕체';
+  font-family: 바탕체,BatangChe,batangche,AppleMyungjo;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="GungSeo"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="GungSeo"]::before  {
+  content: '궁서';
+  font-family: 궁서,GungSuh,Gungsuh,gungsuh,GungSeo,Gungseo,gungseo,-apple-system,sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="NotoSans"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="NotoSans"]::before  {
+  content: '노토 산스';
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="NanumBarunGothic"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="NanumBarunGothic"]::before  {
+  content: '나눔바른고딕';
+  font-family: 'NanumBarunGothic';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Arial"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Arial"]::before  {
+  content: 'Arial';
+  font-family: 'Arial';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Tahoma"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Tahoma"]::before  {
+  content: 'Tahoma';
+  font-family: 'Tahoma';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="TNR"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="TNR"]::before  {
+  content: 'Times New Roman';
+  font-family: 'Times New Roman';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Verdana"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Verdana"]::before  {
+  content: 'Verdana';
+  font-family: 'Verdana';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="CourierNew"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="CourierNew"]::before  {
+  content: 'Courier New';
+  font-family: 'Courier New';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="TNR"]::before  {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 75px;
+}
+
+.ql-font-Gulim {
+  font-family: 굴림,Gulim,gulim,-apple-system,sans-serif;
+}
+
+.ql-font-GulimChe {
+  font-family: 굴림체,GulimChe,gulimche,Gulimche,-apple-system,sans-serif;
+}
+
+.ql-font-Dotum {
+  font-family: 돋움,Dotum,dotum,applegothic,sans-serif;
+}
+
+.ql-font-DotumChe {
+  font-family: 돋움체,DotumChe,dotumche,applegothic;
+}
+
+.ql-font-Batang {
+  font-family: 바탕,Batang,AppleMyungjo;
+}
+
+.ql-font-BatangChe {
+  font-family: 바탕체,BatangChe,batangche,AppleMyungjo;
+}
+
+.ql-font-GungSeo {
+  font-family: 궁서,GungSuh,Gungsuh,gungsuh,GungSeo,Gungseo,gungseo,-apple-system,sans-serif;
+}
+
+.ql-font-NotoSans {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.ql-font-NanumBarunGothic {
+  font-family: 'NanumBarunGothic';
+}
+
+.ql-font-Arial {
+  font-family: 'Arial';
+}
+
+.ql-font-Tahoma {
+  font-family: 'Tahoma';
+}
+
+.ql-font-TNR {
+  font-family: 'Times New Roman';
+}
+
+.ql-font-Verdana {
+  font-family: 'Verdana';
+}
+
+.ql-font-CourierNew {
+  font-family: 'Courier New';
+}
+
+/** font-size list */
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="8pt"]::before {
+  content: '8pt';
+  font-size: 8pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="9pt"]::before {
+  content: '9pt';
+  font-size: 9pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="10pt"]::before {
+  content: '10pt';
+  font-size: 10pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="11pt"]::before {
+  content: '11pt';
+  font-size: 11pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="12pt"]::before {
+  content: '12pt';
+  font-size: 12pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="14pt"]::before {
+  content: '14pt';
+  font-size: 14pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="16pt"]::before {
+  content: '16pt';
+  font-size: 16pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="18pt"]::before {
+  content: '18pt';
+  font-size: 18pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="20pt"]::before {
+  content: '20pt';
+  font-size: 20pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="22pt"]::before {
+  content: '22pt';
+  font-size: 22pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="24pt"]::before {
+  content: '24pt';
+  font-size: 24pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="28pt"]::before {
+  content: '28pt';
+  font-size: 28pt !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="32pt"]::before {
+  content: '32pt';
+  font-size: 32pt !important;
+}
+
+
+/** font-size current */
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="8pt"]::before {
+  content: '8pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="9pt"]::before {
+  content: '9pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="10pt"]::before {
+  content: '10pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="11pt"]::before {
+  content: '11pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="12pt"]::before {
+  content: '12pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="14pt"]::before {
+  content: '14pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="16pt"]::before {
+  content: '16pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="18pt"]::before {
+  content: '18pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="20pt"]::before {
+  content: '20pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="22pt"]::before {
+  content: '22pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="24pt"]::before {
+  content: '24pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="28pt"]::before {
+  content: '28pt';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="32pt"]::before {
+  content: '32pt';
+}
+/** active color */
+
+.ql-snow.ql-toolbar button:hover,
+.ql-snow .ql-toolbar button:hover,
+.ql-snow.ql-toolbar button:focus,
+.ql-snow .ql-toolbar button:focus,
+.ql-snow.ql-toolbar button.ql-active,
+.ql-snow .ql-toolbar button.ql-active,
+.ql-snow.ql-toolbar .ql-picker-label:hover,
+.ql-snow .ql-toolbar .ql-picker-label:hover,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active,
+.ql-snow.ql-toolbar .ql-picker-item:hover,
+.ql-snow .ql-toolbar .ql-picker-item:hover,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+  color: #3eb2c0 !important;
+}
+.ql-snow.ql-toolbar button:hover .ql-fill,
+.ql-snow .ql-toolbar button:hover .ql-fill,
+.ql-snow.ql-toolbar button:focus .ql-fill,
+.ql-snow .ql-toolbar button:focus .ql-fill,
+.ql-snow.ql-toolbar button.ql-active .ql-fill,
+.ql-snow .ql-toolbar button.ql-active .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+.ql-snow.ql-toolbar button:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar button:focus .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button:focus .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill {
+  fill: #3eb2c0 !important;
+}
+.ql-snow.ql-toolbar button:hover .ql-stroke,
+.ql-snow .ql-toolbar button:hover .ql-stroke,
+.ql-snow.ql-toolbar button:focus .ql-stroke,
+.ql-snow .ql-toolbar button:focus .ql-stroke,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+.ql-snow.ql-toolbar button:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar button:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar button:focus .ql-stroke-miter,
+.ql-snow .ql-toolbar button:focus .ql-stroke-miter,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke-miter,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter {
+  stroke: #3eb2c0 !important;
+}
+
+.ql-snow a {
+  color: #3eb2c0 !important;
+}

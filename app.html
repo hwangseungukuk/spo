@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko" {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WMRCD9H');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MXVKF7M3MX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MXVKF7M3MX');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/ua-parser-js@0/dist/ua-parser.min.js"></script>
+    <script>
+      var parser = new UAParser();
+      var result = parser.getResult();
+      var browser = result.browser;
+      var isExplorer = browser.name === 'IE' || browser.name.includes('Explorer');
+      var isOldEdge = browser.name === 'Edge' && parseInt(browser.major) <= 79;
+      if (isExplorer || isOldEdge) {
+        window.location.href = "/browser_update.html";
+      }
+    </script>
+    <script>
+      document.domain = "pmang.com";
+    </script>
+    <script src="https://file-pub.pmang.com/images/pmang/channel/online_channel_gnb.js"></script>
+    <script>
+      function _self_certification(v) {
+        postMessage({ from: 'selfCert', token: v }, window.location.origin);
+      }
+      function _charge_completed() {
+        postMessage({ from: 'payment' }, window.location.origin);
+      }
+      function _gold_charge_completed(v) {
+        window.postMessage({ from: 'gold-charge' }, window.location.origin);
+      }
+    </script>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+  </body>
+</html>

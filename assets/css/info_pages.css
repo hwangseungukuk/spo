@@ -1,0 +1,201 @@
+div.guide-content {
+  margin-bottom: 40px;
+}
+
+div.guide-content * {
+  margin: 0px;
+  padding: 0px;
+}
+div.guide-content strong,
+div.trades-guide-content strong {
+  color: #3eb2c0 !important;
+}
+
+div.trades-guide-content {
+  font-weight: 700;
+}
+
+div.guide-content > dl {
+  overflow: hidden;
+  border-top-style: dashed;
+  border-width: 1px;
+  border-color: #ddd;
+  padding: 30px 0 36px 0;
+  font-weight: 700;
+}
+div.guide-content > dl:first-child,
+div.guide-content > dl.noLine {
+  border-width: 0px;
+}
+div.guide-content > dl:first-child {
+  padding-top: 10px;
+}
+div.guide-content > dl dt,
+div.trades-guide-content > dl dt {
+  position: relative;
+  /* width: 180px; */
+  /* float: left; */
+  font-size: 14px;
+  color: #3eb2c0;
+  padding-top: 10px;
+}
+div.guide-content > dl dt::before,
+div.trades-guide-content > dl td::before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  height: 5px;
+  background: #3eb2c0;
+  content: '';
+}
+div.guide-content > dl dd,
+div.trades-guide-content > dl dd {
+  float: left;
+  display: block;
+  font-weight: 700;
+  font-size: 12px;
+  padding-top: 12px;
+  width: 700px;
+}
+
+div.trades-guide-content dl > dt {
+  margin-right: 54px;
+  white-space: nowrap;
+}
+
+div.trades-guide-content dl > dd {
+  font-weight: bold;
+}
+
+div.trades-guide-content > h3 {
+  margin-top: 50px;
+  background-color: #3eb2c0;
+  font-size: 14px;
+}
+
+div.guide-content table {
+  width: 700px;
+  /* margin-left: 180px; */
+  text-align: center;
+}
+div.guide-content table thead {
+  background: #3c577e;
+}
+div.guide-content table thead tr th {
+  color: #fff;
+  padding: 15px 0;
+  font-weight: normal;
+  border: 1px solid #e1e1e1;
+}
+div.guide-content table tbody tr th {
+  border: 1px solid #e1e1e1;
+  padding: 15px 0 15px 30px;
+  text-align: left;
+  font-weight: normal;
+  color: #999999;
+}
+div.guide-content table tbody tr td {
+  border: 1px solid #e1e1e1;
+  padding: 15px 0;
+  color: #999999;
+}
+
+div.guide-content .descriptionDetail .title {
+  margin-bottom: 10px;
+}
+div.guide-content .descriptionDetail .title span {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+  background: #3eb2c0;
+  padding: 4px 10px;
+}
+div.guide-content .descriptionDetail section {
+  margin-bottom: 30px;
+}
+div.guide-content .descriptionDetail section p {
+  line-height: 2em;
+  white-space: nowrap;
+  font-weight: 700;
+}
+div.guide-content .descriptionDetail section p.ex {
+  position: relative;
+  color: #888888;
+  padding-left: 20px;
+}
+div.guide-content .descriptionDetail section p.ex.s-2 {
+  padding-left: 25px;
+}
+div.guide-content .descriptionDetail section p.ex.s-3 {
+  padding-left: 45px;
+}
+div.guide-content .descriptionDetail section p.ex span {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+div.guide-content .descriptionHead {
+  background: #F7F7F7;
+  padding: 20px;
+  border-radius: 10px;
+  transform: skew(-0.03deg);
+}
+div.guide-content .descriptionHead span {
+  font-size: 14px;
+  font-weight: 600;
+}
+div.guide-content .descriptionHead p {
+  color: #3EB2C0;
+  margin-top: 10px;
+}
+
+
+div.guide-content .gray {
+  color: #888888;
+}
+
+div.guide-content .selectColor {
+  width: 30px;
+  height: 15px;
+  background: #d8f0f2;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.guide-content .lh-1 {
+  line-height: 1em;
+}
+div.guide-content .lh-2 {
+  line-height: 2em;
+}
+
+/* div.descriptionDetail {
+  margin-left: 180px;
+} */
+
+img {
+  max-width: 700px;
+}
+
+.attention {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 13px 10px !important;
+}
+
+.attention > p {
+  white-space: nowrap;
+}
+
+.attention ul {
+  padding-left: 0;
+}
+
+.attention ul li {
+  list-style: none;
+}

@@ -1,0 +1,62 @@
+<template>
+  <div class="white_cover">
+    <!-- 배구 -->
+    <div class="guide-content default-ctn">
+      <p><strong>라이브게임</strong></p>
+      <p>
+        라이브 게임은 현재 진행중인 경기의 예상 결과를 맞히는 게임으로
+        서비스하는 모든 종목의 국내 및 해외 경기를 기준으로 참여가 가능합니다.
+      </p>
+      <p><strong>대상리그</strong></p>
+      <p>V리그, 중국CVA, A1, 수퍼리가 등 전세계 배구 리그</p>
+      <p><strong>크로스 베팅 규정</strong></p>
+      <p>동일 경기 및 다른 경기를 조합하여 베팅 불가능</p>
+
+      <dl class="noLine">
+        <dt>게임 타입</dt>
+      </dl>
+      <div class="descriptionDetail">
+        <section>
+          <p><strong>승리팀</strong></p>
+          <p class="mb-3">승리팀을 예측하는 게임</p>
+          <p><strong>정확한 세트 수</strong></p>
+          <p class="mb-3">정확한 총 진행 세트를 예측하는 게임</p>
+          <p><strong>정확한 스코어</strong></p>
+          <p class="mb-3">양팀의 정확한 최종 득점을 예측하는 게임(몇 대 몇)</p>
+          <p><strong>x세트 승리 팀</strong></p>
+          <p class="mb-3">x 세트 승리팀을 예측하는 게임</p>
+          <p><strong>포인트 핸디캡</strong></p>
+          <p class="mb-3">
+            경기 득점에 핸디캡을 적용하여 경기결과에 따라 (승/패)를 예측하는
+            게임
+          </p>
+          <p><strong>전체 포인트(언더/오버)</strong></p>
+          <p class="mb-3">
+            양팀 득점 총 합이 제시된 기준 점수보다 낮은 값(언더)인지 큰
+            값(오버)인지 예측하는 게임
+          </p>
+          <p><strong>듀스로 결과가 결정되는 세트</strong></p>
+          <p class="mb-3">듀스로 결과가 결정되는 세트의 수를 예측하는 게임</p>
+          <p><strong>x세트 포인트 핸디캡</strong></p>
+          <p class="mb-3">
+            x세트 득점에 핸디캡을 적용하여 경기결과에 따라 (승/패)를 예측하는
+            게임
+          </p>
+          <p><strong>x세트(언더/오버)</strong></p>
+          <p class="mb-3">
+            x세트 득점 총 합이 제시된 기준 점수보다 낮은 값(언더)인지 큰
+            값(오버)인지 예측하는 게임
+          </p>
+          <p><strong>x세트 x득점 </strong></p>
+          <p class="mb-3">x 세트 득점 총 합을 예측하는 게임</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style></style>

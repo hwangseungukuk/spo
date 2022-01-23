@@ -1,0 +1,11 @@
+<svg id="쪽지" xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon" class="cls-1" d="M1510.75,134l3.74,3.91,3.73-3.91h-7.47Zm3.09,4.59-3.74-3.91v7.82Zm0.65,0.68-3.74,3.91,6.52,6.82,3.73-3.91ZM1511.73,150l-3.73-3.91,2.12-2.217,3.73,3.91Zm3.41-11.41,3.73,3.91v-7.82Z" transform="translate(-1508 -134)"/>
+</svg>
